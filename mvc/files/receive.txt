@@ -1,0 +1,7 @@
+{"thoigian":"2020-07-28 21:11:05","ma_tram":"1","ma_cambien":"1","ma_dailuong":"1","giatri":"123"}
+{"thoigian":"2020-07-28 21:11:05","ma_tram":"1","ma_cambien":"1","ma_dailuong":"2","giatri":"789"}
+{"thoigian":"2020-07-28 21:35:18","ma_tram":"6801","ma_cambien":"1","ma_dailuong":"1","giatri":"35"}
+{"thoigian":"2020-07-28 21:37:22","ma_tram":"6801","ma_cambien":"1","ma_dailuong":"1","giatri":"35"}
+{"thoigian":"2020-07-28 21:38:06","ma_tram":"6801","ma_cambien":"1","ma_dailuong":"1","giatri":"35"}
+{"thoigian":"2020-07-28 21:38:21","ma_tram":"6801","ma_cambien":"1","ma_dailuong":"1","giatri":"35"}
+{"thoigian":"2020-07-28 21:38:23","ma_tram":"6801","ma_cambien":"1","ma_dailuong":"1","giatri":"35"}
