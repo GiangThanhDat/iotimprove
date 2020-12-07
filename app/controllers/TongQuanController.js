@@ -1,11 +1,24 @@
 
 	// đăng kí controller cho app chính
 	(function (app) {
-		app.controller('TongQuanController', function($scope,$http,$filter,Excel,accountmngService) {
+		app.controller('TongQuanController', function($scope,$http,$filter,Excel,accountmngService,$timeout) {
 			$scope.accountInfor = accountmngService.getAccountInfor();
 
 			// Lấy số liệu tổng quan theo phân quyền
 
+			$scope.clock = "loading clock..."; // initialise the time variable
+		    $scope.tickInterval = 1000;//ms
+
+		    var tick = function() {
+		        $scope.clock = Date.now() // get the current time
+		        if ($scope.clock == new Date($scope.accountInfor.thoigiantonghop)) {
+		        	// gửi mail
+		        	sendMail();	
+		        }
+		        $timeout(tick, $scope.tickInterval); // reset the timer
+		    }
+		    // Start the timer
+		    $timeout(tick, $scope.tickInterval);
 
 			//=====================================
 
@@ -39,7 +52,11 @@
 			 $scope.TramQuanTracList = [];
 		  	// đã lấy được api
 		  	$scope.TramQuanTracListAll = function () {
-		  		$http.get("TramQuanTrac/ListAll").then(function(response) {
+		  		var tramRequestApi = "TramQuanTrac/ListAll";
+		  		if ($scope.accountInfor.ma_vaitro != 1) {
+		  			tramRequestApi = "TramQuanTrac/getStationsByUser/"+$scope.accountInfor.tendangnhap;
+		  		}	
+		  		$http.get(tramRequestApi).then(function(response) {
 		  			$scope.TramQuanTracList = response.data;
 		  			$scope.chiTietTramQuanTrac = $scope.TramQuanTracList[0];
 		  			$scope.duLieuMoiTruongTheoTram($scope.ngayDau,$scope.ngayCuoi);
@@ -53,13 +70,32 @@
 
 
 		  	var mapObj = null;
-		  	window.onload = function() {								
-		  		$http.get("TramQuanTrac/ListAll").then(function(response) {
+		  	var loadMap = ()=>{
+		  		$scope.accountInfor = accountmngService.getAccountInfor();
+		  		
+		  		var tramRequestApi = "TramQuanTrac/ListAll";
+		  		var SoCamBienRequestApi = "CamBien/getAllNumberOfSensor";
+		  		if ($scope.accountInfor.ma_vaitro != 1) {
+		  			tramRequestApi = "TramQuanTrac/getStationsByUser/"+$scope.accountInfor.tendangnhap;
+		  			SoCamBienRequestApi = "CamBien/getNumberOfSensor/"+$scope.accountInfor.tendangnhap;
+		  		}						
+
+		  		$http.get(SoCamBienRequestApi).then((response)=>{
+		  			if (response) {
+		  				$scope.SoCamBien = response.data['SoCamBien'];
+		  			}
+		  		});
+
+		  		$http.get(tramRequestApi).then(function(response) {
 		  			var tramList = response.data;
 		  			defaultCoord = [tramList[0].vi_do,tramList[0].kinh_do];
 		  			zoomLevel = 12;
+		  			if (mapObj !== undefined && mapObj !== null) {
+		  				mapObj.remove(); // should remove the map from UI and clean the inner children of DOM element
+		  			}	
 					// init map
-					mapObj = L.map('map', {attributionControl: false}).setView(defaultCoord, zoomLevel);			
+					mapObj = L.map('map', {attributionControl: false}).setView(defaultCoord, zoomLevel);
+							
 					// add tile để map có thể hoạt động, xài free từ OSM
 					L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 						attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',maxZoom: 18,
@@ -137,8 +173,10 @@
 				// đã lấy được địa chỉ từ tọa độ.
 
 				// chưa lưu được tạo độ vào cơ sở dữ liệu.(thêm trạm);		
+		  	}
 
-		  	};
+		  	
+		  	loadMap();
 
 
 		  // Get context with jQuery - using jQuery's .get() method.
@@ -306,7 +344,7 @@
 						angular.forEach($scope.dataByStation,function (item,key) {
 							$http.get('cambien/getByKey/'+key).then((camBien)=>{
 								if (camBien.data != undefined) {
-									let avgData = processDataset(item);								
+									let avgData = processDataset(item);// nhóm lại rồi tính trung bình theo ngày
 									//fill data into chart
 									var dataset = {		
 										label 				: camBien.data.ten_cambien,					
@@ -368,36 +406,6 @@
 			}
 
 			// ================================== table list ===========================//
-			/*
-			DanhSachThongKeCacDaiLuong = [
-				0:{
-					CamBien:
-					    ma_cambien: "2"
-						   ten_cambien: "MQ-135"				
-					DaiLuong:
-					    ma_dailuong: "5"
-					    ma_donvi: "2"
-					    mau: "#c5de4a"
-					    nguon_duoi: "0"
-					    nguon_tren: "70"
-					    ten_dailuong: "Bụi"
-						ten_donvi: "ppm"	
-					data :[
-						0:{
-							bgColor: "bg-success"
-							giatri: "11.75"
-							thoigian: "01/11/2020"
-						}
-						1: {thoigian: "02/11/2020", giatri: "14.86", bgColor: "bg-warning", $$hashKey: "object:8"}
-						2: {thoigian: "03/11/2020", giatri: "12.13", bgColor: "bg-danger", $$hashKey: "object:9"}
-						3: {thoigian: "04/11/2020", giatri: "11.50", bgColor: "bg-primary", $$hashKey: "object:10"}
-						4: {thoigian: "05/11/2020", giatri: "18.67", bgColor: "bg-success", $$hashKey: "object:11"}
-						5: {thoigian: "06/11/2020", giatri: "14.86", bgColor: "bg-warning", $$hashKey: "object:12"}
-					]
-				}
-			]
-
-			*/
 			
 			// Trung bình hàng tuần
 
@@ -405,8 +413,9 @@
 			var myDetailChart = null;
 			//========================== Chi tiết theo ngày =======================//
 			//detail chart
-			 // Get context with jQuery - using jQuery's .get() method.			 
-			 $("#ChiTietTheoNgay").on('shown.bs.modal', function() {			    
+			 // Get context with jQuery - using jQuery's .get() method.		
+
+			 var loadDetailChart = ()=>{
 			 	var myDetailChartOptions = {
 			 		maintainAspectRatio : false,
 			 		responsive : true,
@@ -436,16 +445,19 @@
 			 		type: 'line',
 			 		data :$scope.myDetailChartData,
 			 		options: myDetailChartOptions
-			 	});
-			 });
+			 	});			 	
+			 }	 
 
 
-			 $scope.xemChiTiet = (ThongTinChung,ThongTinChiTiet) =>{
-			 	$scope.duLieuMoiTruongTheoNgay(ThongTinChung,ThongTinChiTiet);
-			 	$('#ChiTietTheoNgay').modal('show');
+			 $("#ChiTietTheoNgay").on('shown.bs.modal',loadDetailChart);
+
+
+			 $scope.xemChiTiet = (ma_cambien,ngayXem,doChiTiet=null) =>{			 	
+			 	$('#ChiTietTheoNgay').modal('hide');
+			 	$scope.duLieuMoiTruongTheoNgay(ma_cambien,ngayXem,doChiTiet);	
+			 	// cách 5 giây sau sẽ bật cửa sổ
+			 	setTimeout(()=>$('#ChiTietTheoNgay').modal('show'),500);			 	
 			 }
-
-
 
 			 var converDate = (date)=>{
 			 	let a = date.split('/');
@@ -454,13 +466,13 @@
 
 			 $scope.ChiTietThongKeTheoNgay = {};
 			// xử lý dữ liệu
-			$scope.duLieuMoiTruongTheoNgay = (ma_cambien,thoigian) => {
-				$scope.NgayXem = thoigian;
+			$scope.duLieuMoiTruongTheoNgay = (ma_cambien,ngayXem,doChiTiet=null) => {
+				$scope.NgayXem = ngayXem;
 				$scope.ChiTietThongKeTheoNgay.CamBien = $scope.DanhSachThongKeCacDaiLuong.map(x=>x.CamBien).find((elem)=>{
 					return elem.ma_cambien === ma_cambien;
 				});
 				$scope.ChiTietThongKeTheoNgay.TramQuanTrac = $scope.chiTietTramQuanTrac;
-				const ngayXem = converDate($scope.NgayXem);		
+				ngayXem = converDate($scope.NgayXem);		
 				$scope.myDetailChartData = {
 					datasets:[],
 					labels:[]
@@ -470,9 +482,31 @@
 				$http.get(requestUrl).then(function(result){
 					// nhận response
 					if (result.data!= undefined) {
-						const dataResponse = result.data;
+						if (!doChiTiet) {
+							doChiTiet = "HH:mm"; // mặc định sẽ gom nhóm được theo phút
+						}
+
+						result.data.forEach((elem) =>{
+							// elem['time'] = moment(elem.time,"HH:mm:ss").format('HH:mm'); // bỏ giây đi thì 
+							elem['time'] = moment(elem.time,"HH:mm:ss").format(doChiTiet); // bỏ giây đi thì sẽ gom nhóm được theo giờ
+						});
+
+						var dataResponse = result.data;
+
+						//tiến hành gom nhóm theo phút
+						dataResponse = groupBy(dataResponse,'time');
+
+						var dataset = [];
+
+						//tính trung bình theo từng nhóm phút
+						angular.forEach(dataResponse, function(data,key){									
+							let mangGiaTri = data.map(x=>{return parseInt(x.giatri)}); // map ra một mảng mới mà chỉ lấy giá trị.
+							let giaTriTrungBinh = average(mangGiaTri).toFixed(2);; // làm tròn 2 số
+							dataset.push({giatri: giaTriTrungBinh,time:key});
+						});
+
 						// fill data vào bảng thống kê theo ngày
-						dataResponse.forEach((elem)=>{
+						dataset.forEach((elem)=>{
 							let value = elem.giatri;
 							let copyElem = elem;
 							copyElem.bgColor = $scope.ChiTietThongKeTheoNgay.CamBien.mau;
@@ -485,10 +519,10 @@
 						});						
 
 						//fill data vào biểu đồ chi tiết thống kê theo ngày
-						const data = dataResponse.map((elem) => {
+						const data = dataset.map((elem) => {
 							return elem.giatri;
 						});
-						const labels = dataResponse.map((elem)=> {
+						const labels = dataset.map((elem)=> {
 							return elem.time;
 						});
 						var dataset = {
@@ -510,14 +544,66 @@
 				});	
 			}
 			//===========
+			function showUnsignedString(input) {
+				var signedChars     = "àảãáạăằẳẵắặâầẩẫấậđèẻẽéẹêềểễếệìỉĩíịòỏõóọôồổỗốộơờởỡớợùủũúụưừửữứựỳỷỹýỵÀẢÃÁẠĂẰẲẴẮẶÂẦẨẪẤẬĐÈẺẼÉẸÊỀỂỄẾỆÌỈĨÍỊÒỎÕÓỌÔỒỔỖỐỘƠỜỞỠỚỢÙỦŨÚỤƯỪỬỮỨỰỲỶỸÝỴ";
+				var unsignedChars   = "aaaaaaaaaaaaaaaaadeeeeeeeeeeeiiiiiooooooooooooooooouuuuuuuuuuuyyyyyAAAAAAAAAAAAAAAAADEEEEEEEEEEEIIIIIOOOOOOOOOOOOOOOOOUUUUUUUUUUUYYYYY";				
+				var pattern = new RegExp("[" + signedChars + "]", "g");
+				var output = input.replace(pattern, function (m, key, value) {
+					return unsignedChars.charAt(signedChars.indexOf(m));
+				});
+				return output
+			}
 
 			// =============== XUẤT FILE EXCEL =================
 			$scope.exportToExcel=function(tableId,filename){ // ex: '0'
-			tableId = '#'+tableId;
-			var exportHref=Excel.tableToExcel(tableId,filename);
-	            location.href=exportHref; // trigger download
+				tableId = '#'+tableId;				
+				var exportHref=Excel.tableToExcel(tableId,showUnsignedString(filename));				
+		        // location.href=exportHref; // trigger download
+	        }	
+
+
+	        var getDuLieuTongHop = ()=>{
+	        	requestUrl = "giatri/getDataSetFromAdminByDate";// admin
+	        	if ($scope.accountInfor.ma_vaitro != 1) {
+	        		let requestUrl = "giatri/getDataSetFromUserByDate/"+$scope.accountInfor.tendangnhap;
+	        	}
+	        	requestUrl += '/' + moment().format("YYYY-MM-DD");
+	        	$http.get(requestUrl).then((response)=>{
+	        		if (response.data!=null) {
+	        			$scope.DuLieuTongHop = response.data;
+	        			angular.forEach($scope.DuLieuTongHop, function(value, key){
+	        				value.ngay = $filter('date')(new Date(value.thoigian),'dd/MM/yyyy');
+	        				value.gio = $filter('date')(new Date(value.thoigian),'HH:mm:ss');
+	        			});	        			
+	        		}
+	        	});
 	        }
 
-				
+	        getDuLieuTongHop();
+
+	        $scope.TongHop = ()=>{
+	        	$scope.exportToExcel('bang-tong-hop','tong-hop'+Date.now());
+	        	sendMail();
+	        }
+
+	        $scope.apDungHenGio = ()=>{
+	        	var gioHen = moment(new Date($scope.gioHen)).format('HH:mm:ss'); 
+	        	$scope.accountInfor.thoigiantonghop = gioHen;
+	        	$http.post('TaiKhoan/update',$scope.accountInfor).then((response)=>{
+	        		if (response.data) {
+	        			console.log("Thành công");
+	        		}
+	        	},()=>{
+	        		console.log("load fail");
+	        	});
+	        }
+
+	        var sendMail = ()=>{
+	        	$http.post('TaiKhoan/sendMail',$scope.accountInfor).then((response)=>{
+	        		if (response.data) {
+	        		}
+	        	});
+	        }
+
 		});
 })(angular.module('myIOTApp'));

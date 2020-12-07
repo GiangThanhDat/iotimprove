@@ -1,21 +1,13 @@
 
 (function (app) {
    app.factory("accountmngService", [
-	"$cookies", function($cookies) {
-		var userName = "";
+	"$cookies", function($cookies) {		
 		var accountInfor={};
-		return {
-			setCookieData: function(username) {
-				userName = username;
-				$cookies.put("userName", username);
-			},
-			getCookieData: function() {
-				userName = $cookies.get("userName");
-				return userName;
-			},
+		var roles = [];
+		return {			
 			clearCookieData: function() {
-				userName = "";
-				$cookies.remove("userName");
+				accountInfor = "";
+				$cookies.remove("accountInfor");
 			},
 
 			setAccountInfor : (account)=>{
@@ -26,6 +18,14 @@
 			getAccountInfor : ()=>{
 				accountInfor = $cookies.get("accountInfor");
 				return $.parseJSON( accountInfor);
+			},
+			setRoles : (roles)=>{
+				roles = roles;
+				$cookies.put("roles",JSON.stringify(roles));
+			},
+			getRoles : ()=>{
+				roles = $cookies.get('roles');
+				return$.parseJSON(roles);
 			}
 		}
 	}

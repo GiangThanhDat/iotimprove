@@ -1,0 +1,830 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>tong-hop1607085340639</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+                 <thead>
+                  <tr class="text-center">
+                    <th colspan="6">THỐNG KÊ TỔNG HỢP</th>
+                  </tr>
+                  <tr class="text-left">
+                    <th>Tên trạm</th>
+                    <th>Cảm biến</th>
+                    <th>Giá trị</th>
+                    <th>Đơn vị</th>
+                    <th>Ngày</th>
+                    <th>Giờ</th>
+                  </tr> 
+                </thead>
+                <tbody>
+                  <!-- ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:52</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:17</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:08</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:03</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:57</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">34</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:23</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">33</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:33</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">33</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:28</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:59</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:53</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">32</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:19</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:09</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:04</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">33</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:24</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">33</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:29</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:00</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:55</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">32</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:20</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:14</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:05</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">33</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:25</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">33</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:30</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:06</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:01</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:56</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">34</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:22</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:16</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">33</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:32</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">Nhiệt Độ</td>
+                    <td class="ng-binding">33</td>
+                    <td class="ng-binding">°C</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:27</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">84</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:32</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">86</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:27</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">66</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:52</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:17</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:08</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:03</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:57</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">86</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:23</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">84</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:33</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">86</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:28</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:59</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">66</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:53</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">71</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:19</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:09</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:04</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">86</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:24</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">85</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:29</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:00</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:55</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">71</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:20</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:14</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:05</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">85</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:30</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">86</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:25</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:06</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:01</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:56</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">86</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:22</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 01</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">60</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:16</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">22</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:06</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">72</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:01</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">41</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:56</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">55</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:22</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">67</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:16</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">56</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:32</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">39</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:27</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">90</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:52</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">47</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:17</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">3</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:08</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">86</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:03</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">62</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:57</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">96</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:23</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">21</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:33</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">98</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:28</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">55</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:59</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">49</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:53</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">6</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:19</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">91</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:09</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">73</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:04</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">85</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:24</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">8</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:29</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">81</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:05</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">54</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:00</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">91</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:55</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">83</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:20</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">39</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:14</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">76</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:30</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">nhiệt độ</td>
+                    <td class="ng-binding">36</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:25</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">20</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:16</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">50</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:06</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">69</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:01</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">28</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:56</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">27</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:22</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">25</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:32</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">53</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:27</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">20</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:52</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">40</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:17</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">21</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:08</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">48</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:03</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">-13</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:57</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">47</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:23</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">7</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:33</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">-13</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:28</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">31</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:59</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">10</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:53</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">6</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:19</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">10</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:09</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">1</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:04</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">46</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:24</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">42</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:29</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">36</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:05</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">2</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:00</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">49</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:23:55</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">53</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:20</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">4</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:14</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">65</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:30</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop --><tr ng-repeat="value in DuLieuTongHop" class="ng-scope">
+                    <td class="ng-binding">Khu vực xử lý rác thải 02</td>
+                    <td class="ng-binding">độ ẩm</td>
+                    <td class="ng-binding">11</td>
+                    <td class="ng-binding">ppm&nbsp;</td>
+                    <td class="ng-binding">04/12/2020</td>  
+                    <td class="ng-binding">16:24:25</td>  
+                  </tr><!-- end ngRepeat: value in DuLieuTongHop -->
+                </tbody>
+              </table></body></html>

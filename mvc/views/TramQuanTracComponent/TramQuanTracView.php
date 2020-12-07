@@ -7,7 +7,7 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1 class="m-0 text-dark">Quản lý trạm xử lý rác thải</h1>
+          <h1 class="m-0 text-dark">Quản Lý Các Khu Vực Trạm Quan Trắc</h1>
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
@@ -57,7 +57,7 @@
           <div class="card-header" style="background-color: #212529; color: #c2c7d0">
             <h3 class="card-title">Danh sách các Trạm xử lý rác thải</h3>
             <div class="card-tools">
-              <input type="button" data-toggle="modal" data-target="#FormThemTram"  class="btn btn-tool btn-success" value="Thêm trạm mới">
+              <input ng-show="accountInfor.ma_vaitro==1" type="button" data-toggle="modal" data-target="#FormThemTram"  class="btn btn-tool btn-success" value="Thêm trạm mới">
               <button type="button" class="btn btn-tool" data-card-widget="collapse">
                 <i class="fas fa-minus"></i>
               </button>
@@ -140,15 +140,29 @@
                               <div class="col-sm-8">
                                 <input type="text" ng-disabled="true" class="form-control" id="dia_chi" ng-model="ChiTietTQT.DiaChi" value="{{ChiTietTQT.DiaChi}}" >
                               </div>
+                            </div>
+                            <div class="form-group row" ng-show="accountInfor.ma_vaitro==1">
+                              <label for="ten_tram" class="col-sm-4 col-form-label">Người quản lý</label>
+                              <div class="col-sm-8" ng-show="!edit">
+                                <input type="text" ng-disabled="true" class="form-control" id="nguoi_quan_ly" ng-model="ChiTietTQT.TenNguoiQuanLy" value="{{ChiTietTQT.TenNguoiQuanLy}}" >
+                              </div>
+                              <div class="col-sm-8" ng-show="edit">
+                                <select class="form-control" ng-model="ChiTietTQT.taikhoan_quanly" ng-options="account.tendangnhap as account.hovaten for account in ListAccount">
+                                  <option value="">Phân công người quản lý trạm này</option>
+                                </select>
+                              </div>
                             </div>                            
                           </div>   
-                          <div class="card-footer">
+                          <div class="card-footer" ng-show="accountInfor.ma_vaitro==1">
                             <input type="button" data-toggle="modal" data-target="#BoSungCamBien" class="btn btn-warning float-sm-left"  value="Bổ sung cảm biến">
                             <input type="button" ng-show="!edit" ng-click="edit=true;editClick()" name="" id="" class="btn btn-success float-sm-right"  value="Sửa">
                             <input type="button" name="" ng-show="edit" id="" class="btn btn-primary float-sm-right" data-dismiss="modal" ng-click="edit=false;updateTQT();editClick()" value="Lưu">
                             
                             <input type="button" name="" ng-show="edit" ng-click="edit=false;editClick()" id="" class="btn btn-danger float-sm-right" value="Hủy"/>
                             &nbsp;&nbsp;
+                          </div>
+                          <div class="card-footer" ng-show="accountInfor.ma_vaitro!=1">
+                            <input type="button" data-toggle="modal" data-target="#BoSungCamBien" class="btn btn-warning float-sm-left"  value="Bổ sung cảm biến">
                           </div>
                           <!-- </div> -->
 
@@ -292,7 +306,15 @@
                                       <div class="col-sm-8">
                                         <input type="text" ng-disabled="true" class="form-control" id="dia_chi" ng-model="ChiTietTQT.DiaChi" value="{{ChiTietTQT.DiaChi}}" >
                                       </div>
-                                    </div>                            
+                                    </div>    
+                                    <div class="form-group row" ng-show="accountInfor.ma_vaitro==1">
+                                      <label for="ten_tram" class="col-sm-4 col-form-label">Người quản lý</label>
+                                      <div class="col-sm-8" >
+                                        <select class="form-control" ng-model="ChiTietTQT.taikhoan_quanly" ng-options="account.tendangnhap as account.hovaten for account in ListAccount">
+                                          <option value="">Phân công người quản lý trạm này</option>
+                                        </select>
+                                      </div>
+                                    </div>                         
                                   </div>   
                                   <div class="card-footer">
                                     <input type="button" data-toggle="modal" data-target="#BoSungCamBien" class="btn btn-warning float-sm-left"  value="Bổ sung cảm biến">
@@ -411,7 +433,7 @@
                                 <div class="form-group row">
                                   <label for="text" class="col-sm-2 col-form-label">Lắp ở trạm</label>
                                   <div class="col-sm-10">
-                                    <input type="text" class="form-control" ng-model="ChiTietTQT.ten_tram">
+                                    <input type="text" readonly="" class="form-control" ng-model="ChiTietTQT.ten_tram">
                                   </div>
                                 </div>
                                 <div class="form-group row">

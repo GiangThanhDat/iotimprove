@@ -2,19 +2,22 @@
 // đăng kí controller cho app chính
 (function (app) {
 	app.controller('PhanQuyenNguoiDungController', function($scope,$http,accountmngService) {
-		$scope.accountInfor = {};
-		$scope.tendangnhap = accountmngService.getCookieData();
-		$scope.getAccountInfor = ()=>{
-			$http.get('TaiKhoan/getAccountInfor/'+$scope.tendangnhap).then((response)=>{
-				if (response) {
-					$scope.accountInfor = response.data;
-					accountmngService.setAccountInfor($scope.accountInfor);
+		$scope.accountInfor = accountmngService.getAccountInfor();
+		// tìm cách xử lý tick chức năng
+		var getListTasksByRole = (ma_vaitro)=>{
+			$http.get('ChucNang/getListTasksByRole/'+ma_vaitro).then((response)=>{
+				if (response.data) {
+					$scope.roles = response.data;
+					accountmngService.setRoles($scope.roles);
 				}
-			}, ()=>{
-				console.debug("load fail");
 			});
+		} 
+		getListTasksByRole($scope.accountInfor.ma_vaitro);
+
+		$scope.checkRoles = (taskName)=>{
+			return (taskName && $scope.roles) ? ($scope.roles.find(task=>task.ten_chucnang===taskName)) : null;
 		}
-		$scope.getAccountInfor();
+
 	});
 })(angular.module('myIOTApp'));
 

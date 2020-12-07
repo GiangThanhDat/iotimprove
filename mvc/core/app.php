@@ -24,7 +24,6 @@ class app
 	//  $action;		
 		$this->controller."</br>";
 		if(method_exists($this->controller, $action)){	//kiểm tra xem action request có tồn tại trong controller vừa chọn hay không?
-
 			$this->action = $action;			
 		}
 	}
@@ -78,11 +77,12 @@ class app
 			* Chỉ cần đúng một trong ba điều kiện trên sẽ được truy cập hệ thống.
 			* Nếu không cả ba mà không đúng điều kiện nào thì coi như 
 			không được phép sử dụng hệ thống => mặc định về đăng nhập
-			*/			
+			*/						
 			if ((isset($_SESSION['tendangnhap'])) // cái này là đã đăng nhập rồi thì cho qua
 				|| ($url==="TaiKhoan/DangNhap") // chặn đường này thì thua luôn :)))
 				|| ($url==="TaiKhoan/DangKy") // đường này để lưu tài khoản mới vô Database
-				| ($url==="BaoMat/DangKy") // đường này để điều hướng đến trang đăng ký
+				|| (strpos($url,"TaiKhoan/isDuplicateAccount") !== false) // đường này check tên tài khoản trùng
+				|| ($url==="BaoMat/DangKy") // đường này để điều hướng đến trang đăng ký
 				|| ($url==="giatri/thuthap")) // đường này là cho con ESP32 gửi lên, mắc công bị chặn
 			{ 
 				$this->urlProcess($url);

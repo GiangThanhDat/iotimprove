@@ -1,0 +1,44 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>do am</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+                          <thead>
+                            <tr class="text-center">
+                              <th colspan="3" class="ng-binding">BẢNG THỐNG KÊ TỪ 05/11/2020-04/12/2020</th>
+                            </tr>
+                            <tr>
+                              <td>Trạm</td>
+                              <td colspan="2" class="ng-binding">Khu vực xử lý rác thải 01</td>
+                            </tr> 
+
+                            <tr>
+                              <td>Cảm biến</td>
+                              <td colspan="2" class="ng-binding">độ ẩm</td>
+                            </tr>
+                            <tr class="text-left">
+                              <th>Giá trị</th>
+                              <th>Đơn vị</th>
+                              <th>Thời gian</th>
+                            </tr> 
+                          </thead>
+                          <tbody>
+                            <!-- ngRepeat: data in danhsach.data --><tr ng-repeat="data in danhsach.data" class="ng-scope">
+                              <td class="ng-binding">42.77</td>
+                              <td class="ng-binding">ppm&nbsp;</td>
+                              <td class="ng-binding">24/11/2020</td>
+                            </tr><!-- end ngRepeat: data in danhsach.data --><tr ng-repeat="data in danhsach.data" class="ng-scope">
+                              <td class="ng-binding">36.85</td>
+                              <td class="ng-binding">ppm&nbsp;</td>
+                              <td class="ng-binding">25/11/2020</td>
+                            </tr><!-- end ngRepeat: data in danhsach.data --><tr ng-repeat="data in danhsach.data" class="ng-scope">
+                              <td class="ng-binding">21.00</td>
+                              <td class="ng-binding">ppm&nbsp;</td>
+                              <td class="ng-binding">27/11/2020</td>
+                            </tr><!-- end ngRepeat: data in danhsach.data --><tr ng-repeat="data in danhsach.data" class="ng-scope">
+                              <td class="ng-binding">23.90</td>
+                              <td class="ng-binding">ppm&nbsp;</td>
+                              <td class="ng-binding">02/12/2020</td>
+                            </tr><!-- end ngRepeat: data in danhsach.data --><tr ng-repeat="data in danhsach.data" class="ng-scope">
+                              <td class="ng-binding">50.88</td>
+                              <td class="ng-binding">ppm&nbsp;</td>
+                              <td class="ng-binding">04/12/2020</td>
+                            </tr><!-- end ngRepeat: data in danhsach.data -->
+                          </tbody>
+                        </table></body></html>

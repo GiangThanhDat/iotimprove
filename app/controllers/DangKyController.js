@@ -8,8 +8,13 @@
 		$scope.DangKy = ()=>{
 			$http.post('TaiKhoan/DangKy', $scope.newUser).then((response)=>{
 				if(response.data){
-					console.log("thêm thành công");
-					$('#successMessage').show('slow/400/fast');
+					
+					if (response.data.trim() === "0") {
+
+					}else{
+						$('#successMessage').show('slow/400/fast');	
+					}
+					
 				}
 			}, ()=>{
 				console.log('load fail');
@@ -18,8 +23,8 @@
 
 		// check whether the account is the same or not?
 		$scope.checkDuplicateAccount = ()=>{
-			$http.get('TaiKhoan/isDuplicateAccount/'+$scope.newUser.tendangnhap).then((response)=>{
-				if (response.data.trim() === '1') { // nhìn tên api
+			$http.get('TaiKhoan/isDuplicateAccount/'+$scope.newUser.tendangnhap).then((result)=>{
+				if (result.data.trim() === '1') { // nhìn tên api
 					$('#errorMessage').show('slow/400/fast');
 					$scope.errorTitle = "Trùng tên đăng nhập"
 					$scope.errorMessage = "Tên đăng nhập đã có người sử dụng, vui lòng chọn tên đăng nhập khác.";

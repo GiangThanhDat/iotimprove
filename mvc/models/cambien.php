@@ -81,20 +81,25 @@ class cambien extends data
 		return 0;
 	}
 
-
-	public function getListByStationCode($ma_tram)
+	public function getNumberOfSensor($tendangnhap)
 	{
-		$number_of_sensors = "SELECT DISTINCT `ma_cambien` FROM `giatri` WHERE `ma_tram` = '$ma_tram'";	
-		$result = $this->execute($number_of_sensors);	
-		$list = [];
-		if($result){
-			while ($row = $result->fetch_assoc()) {
-				$sensorKey = $row['ma_cambien'];
-				array_push($list,json_decode($this->getByKey($sensorKey),true));
-			}
-			return $list;
-		}
-		return 0;		
+		$query  = "SELECT count(`ma_cambien`) as SoCamBien FROM `taikhoan` JOIN `tramquantrac` ON(`taikhoan`.`tendangnhap` = `tramquantrac`.`taikhoan_quanly`) JOIN `cambien` ON(`cambien`.`ma_tram` = `tramquantrac`.`ma_tram`) WHERE `tendangnhap` = '$tendangnhap'";
+		$result = $this->execute($query);				
+		if($result->num_rows != 0 ){			
+			return json_encode($result->fetch_assoc());
+		}		
+		return 0;
 	}
+
+	public function getAllNumberOfSensor()
+	{
+		$query  = "SELECT count(`ma_cambien`) as SoCamBien FROM `taikhoan` JOIN `tramquantrac` ON(`taikhoan`.`tendangnhap` = `tramquantrac`.`taikhoan_quanly`) JOIN `cambien` ON(`cambien`.`ma_tram` = `tramquantrac`.`ma_tram`)";
+		$result = $this->execute($query);				
+		if($result->num_rows != 0 ){			
+			return json_encode($result->fetch_assoc());
+		}		
+		return 0;
+	}
+	
 }
  ?>

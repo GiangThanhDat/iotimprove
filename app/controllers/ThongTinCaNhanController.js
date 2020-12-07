@@ -1,7 +1,7 @@
 
 // đăng kí controller cho app chính
 (function (app) {
-	app.controller('ThongTinCaNhanController', function($scope,$http,accountmngService) {
+	app.controller('ThongTinCaNhanController', function($scope,$http,accountmngService,fileUpload) {
 		$scope.accountInfor = accountmngService.getAccountInfor();
 		var _mapForAdd
 		var marker = null;
@@ -27,6 +27,17 @@
 				}
 			});
 		}
+
+		var getTenVaiTro = ()=>{
+			$http.get('VaiTro/getByKey/'+$scope.accountInfor.ma_vaitro).then((response)=>{
+				if (response) {
+					$scope.accountInfor.ten_vaitro = response.data['ten_vaitro'];
+				}
+			});
+		}
+
+		getTenVaiTro();
+
 
 
 		var onMapForAddClick = (e)=> {
@@ -103,6 +114,7 @@
 
 		$scope.updateAccount = ()=>{
 			delete $scope.accountInfor['DiaChi'];
+			delete $scope.accountInfor['ten_vaitro'];
 		 	var json = JSON.stringify($scope.accountInfor, function( key, value ) {
 		 		if( key === "$$hashKey" ) {
 		 			return undefined;
@@ -111,12 +123,41 @@
 		 	});
 			$http.post('TaiKhoan/update',$scope.accountInfor).then((response)=>{
 				if (response) {
-
+					$http.get('TaiKhoan/getAccountInfor/'+$scope.accountInfor.tendangnhap).then((response)=>{
+						if (response) {
+							$scope.accountInfor = response.data;
+							accountmngService.setAccountInfor($scope.accountInfor);															
+						}
+					}, ()=>{
+						console.debug("load fail");
+					});					
+					getTenVaiTro();
 				}
 			},()=>{
 				console.log("load fail");
 			})
 		}
+		
+		$scope.chooseImage = ()=>{		
+			if ($scope.edit === true) {
+				
+			}	
+			CKFinder.popup( {
+				chooseFiles: true,
+				height: 600,
+				onInit: function( finder ) {
+					finder.on( 'files:choose', function( evt ) {
+						var file = evt.data.files.first();
+						console.log(file.getUrl());
+						$scope.accountInfor.avatar = file.getUrl();						
+					} );
+					finder.on( 'file:choose:resizedImage', function( evt ) {
+						document.getElementById( 'url' ).value = evt.data.resizedUrl;
+					} );
+				}
+			} );
+		}
+
 	});
 })(angular.module('myIOTApp'));
 

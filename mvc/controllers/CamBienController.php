@@ -52,5 +52,22 @@ class CamBienController extends controller
 			echo $model->remove($ma_camBien);
 		}
 	}
+
+
+	function getNumberOfSensor($tendangnhap)
+	{
+		$model = $this->model("cambien");
+		if (method_exists($model,"getNumberOfSensor")) {
+			echo $model->getNumberOfSensor($tendangnhap);
+		}
+	}
+
+	function getAllNumberOfSensor()
+	{
+		$model = $this->model("cambien");
+		if (method_exists($model,"getAllNumberOfSensor")) {
+			echo $model->getAllNumberOfSensor();
+		}
+	}
 }
 ?>

@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta http-equiv="content-type" content="application/vnd.ms-excel; charset=UTF-8"> 
+
   <!-- đường dẫn tuyệt đối -->
-  <base href="http://192.168.1.2/IOT-Improve/" /> 
-   <!-- đường dẫn tuyệt đối -->
-  <!-- <base href="http://localhost/IOT-Improve/" />  -->
+  <!-- <base href="http://192.168.1.2/iotimprove/" />  -->
+   <!-- đường dẫn tuyệt đối -->   
+  <base href="http://<?= LOCALHOST ?>/iotimprove/" /> <!-- đường dẫn tuyệt đối -->
   <title>Giang Thành Đạt</title>
 
   <!-- Font Awesome Icons -->
@@ -73,9 +75,7 @@
   <!-- ChartJS -->
   <script src="./public/plugins/chart.js/Chart.min.js"></script>
   <!-- Select2 -->
-  <script src="./public/plugins/select2/js/select2.full.min.js"></script>
-  <!-- PAGE SCRIPTS -->
-  <script src="./public/js/pages/dashboard2.js"></script>
+  <script src="./public/plugins/select2/js/select2.full.min.js"></script>  
   <!-- OPEN STREET MAP -->
   <script src="./public/leaflet/leaflet.js"></script>
   <!-- ANGULARJS -->
@@ -86,7 +86,8 @@
   <!-- AlaSQL -->
   <script src="./public/js/alasql.min.js"></script>
   <script src="./public/js/xlsx.core.min.js"></script>
-
+  <!-- CKFinder -->
+  <script src="./public/ckfinder/ckfinder.js"></script>
 
   <!-- angular application - Controller-->
   <script src="./app/app.js"></script>
@@ -100,5 +101,6 @@
   <!-- angular provider - service -->
   <script src="./app/factory/Excel.js"></script>
   <script src="./app/factory/accountmng.js"></script>
+  <script src="./app/factory/fileInputDirective.js"></script>
 </body>
 </html>

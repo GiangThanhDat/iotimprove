@@ -1,5 +1,5 @@
 body{
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    /*background: -webkit-linear-gradient(left, #3931af, #00c6ff);*/
 }
 .emp-profile{
     padding: 3%;
@@ -120,12 +120,11 @@ body{
     clear:both;
 }
 
-
+/*
 .test .leaflet-popup-content-wrapper {
-      /*background: #2ce897;*/
-      /*color: #eee;*/
       font-weight: bold;
       font-size: 12px;
       line-height: 24px;
       border-radius: 0px;
 }
+*/

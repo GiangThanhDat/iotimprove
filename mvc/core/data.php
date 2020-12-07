@@ -1,12 +1,5 @@
-
-
 <?php
-// echo "có data luôn";
-/**
- * 
- dùng cho model giá trị
- INSERT INTO `giatri` (`ma_tram`, `ten_cambien`, `ma_dailuong`, `giatri`, `thoigian`) VALUES ('1', '2', '3', '200', '2020-07-04 17:02:31'), ('1', '2', '4', '300', '2020-07-04 17:02:31')
- */
+
 class data
 {
 	
@@ -72,13 +65,12 @@ class data
 
  	protected function updateObject($model,$post_request,$keyName,$val)
  	{
-<<<<<<< HEAD
+
  		$updateStatement = $this->getUpdateStatement($model,$post_request,$keyName,$val);
  		echo $updateStatement;
-=======
+
  		 $updateStatement = $this->getUpdateStatement($model,$post_request,$keyName,$val);
 //  		echo $updateStatement;
->>>>>>> e9a1e4ca34a4ba28b6435b771e0b9be7f2858f01
 		$result = $this->execute($updateStatement);
 		if($result){
 			return 1; // SUCCESS

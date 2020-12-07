@@ -1,0 +1,867 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>do am</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+                            <thead>
+                              <tr class="text-center">
+                                <th colspan="3" class="ng-binding">BẢNG THỐNG KÊ NGÀY 27/11/2020</th>
+                              </tr>
+                              <tr>
+                                <td>Trạm </td>
+                                <td colspan="2" class="ng-binding">Khu vực xử lý rác thải 01</td>
+                              </tr> 
+                              <tr>
+                                <td>Cảm biến</td>
+                                <td colspan="2" class="ng-binding">độ ẩm</td>
+                              </tr>
+                              <tr class="text-left">
+                                <th>Giá trị</th>
+                                <th>Đơn vị</th>
+                                <th>Thời gian</th>
+                              </tr> 
+                            </thead>
+                            <tbody>
+                              <!-- ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">10.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:41</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">34.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:42</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">17.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:43</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">33.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:44</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">31.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:45</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">11.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:46</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">41.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:47</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">19.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:48</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">10.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:49</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">42.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:50</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">1.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:51</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">47.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:52</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">42.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:53</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">7.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:54</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">18.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:55</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">23.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:56</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">34.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:57</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">47.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:58</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">19.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:46:59</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">36.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:00</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">20.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:01</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">36.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:02</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:03</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">46.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:04</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">6.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:05</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">3.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:06</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">21.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:07</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">39.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:08</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">49.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:09</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">42.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:10</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">17.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:11</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">7.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:12</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">8.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:13</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">14.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:14</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">0.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:15</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">45.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:16</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">46.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:17</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">34.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:18</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">17.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:19</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">31.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:20</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">35.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:21</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">26.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:22</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">18.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:23</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">47.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:24</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">36.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:25</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">12.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:26</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">10.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:27</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">13.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:28</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">11.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:29</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">13.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:30</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">23.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:31</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">42.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:32</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">27.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:33</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">30.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:34</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">10.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:35</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">24.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:36</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">31.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:37</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">19.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:38</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">24.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:39</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">15.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:40</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">20.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:41</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">35.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:42</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">8.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:43</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">31.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:44</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">31.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:46</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">28.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:47</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">25.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:48</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">44.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:49</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">33.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:50</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">3.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:51</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">16.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:52</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">28.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:53</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">17.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:54</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">39.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:55</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">0.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:56</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">16.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:57</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">12.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:58</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">36.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:47:59</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">24.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:00</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">41.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:01</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">16.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:02</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">31.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:03</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">4.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:04</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">21.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:05</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">14.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:06</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">14.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:07</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">22.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:08</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">42.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:10</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">38.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:11</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">11.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:12</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:13</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">48.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:14</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">32.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:15</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">35.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:16</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">38.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:17</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:18</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">5.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:19</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">29.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:20</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">37.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:21</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">48.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:22</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">8.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:23</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">49.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:24</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">13.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:25</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">30.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:26</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">5.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:27</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">18.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:28</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">35.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:29</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">31.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:30</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">25.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:31</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">25.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:32</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">10.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:33</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">41.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:34</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">22.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:35</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">46.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:36</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">36.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:37</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">45.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:38</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">34.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:39</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">18.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:40</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">13.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:41</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">20.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:42</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">49.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:43</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">44.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:44</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:45</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">5.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:46</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">26.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:47</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">5.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:48</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">47.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:49</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">37.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:50</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">13.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:51</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">18.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:52</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">36.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:53</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">19.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:54</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">38.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:55</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">26.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:48:56</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">27.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:01</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">36.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:02</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">27.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:03</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">33.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:04</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">3.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:05</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">50.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:06</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">27.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:07</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">3.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:08</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">18.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:09</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">32.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:10</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">23.50</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:12</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">23.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:13</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">2.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:14</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">32.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:15</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">10.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:16</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">35.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:17</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">22.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:18</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">16.50</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:20</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">34.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:21</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">35.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:22</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">47.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:23</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">43.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:24</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">27.50</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:26</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">29.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:27</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">27.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:28</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">10.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:29</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">10.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:30</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">36.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:31</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">21.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:32</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">29.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:33</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">27.50</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:35</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">8.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:36</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">32.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:37</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">41.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:38</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">9.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:39</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">31.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:40</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">7.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:41</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:42</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">18.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:43</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">3.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:44</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">22.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:45</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">22.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:46</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">7.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:47</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">14.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:48</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">43.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:49</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:50</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">22.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:51</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">8.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:52</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">49.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:53</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">10.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:54</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">16.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:55</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">11.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:56</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">28.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:57</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">48.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:58</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">29.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:49:59</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">20.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:00</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">31.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:01</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">23.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:02</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">8.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:03</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">34.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:04</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:05</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">29.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:06</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">49.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:07</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">18.50</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:09</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:10</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">39.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:11</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:12</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">39.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:13</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">9.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:14</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">11.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:15</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">25.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:16</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">1.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:17</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">29.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:18</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">38.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:19</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">36.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:20</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">40.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:21</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay --><tr ng-repeat="item in ThongKeTheoNgay" class="ng-scope">
+                                <td class="ng-binding">15.00</td>
+                                <td class="ng-binding">ppm&nbsp;</td>
+                                <td class="ng-binding">21:50:22</td>
+                              </tr><!-- end ngRepeat: item in ThongKeTheoNgay -->
+                            </tbody>
+                          </table></body></html>

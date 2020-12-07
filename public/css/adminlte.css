@@ -20332,6 +20332,14 @@ html.maximized-card {
   justify-content: center;
 }
 
+
+.login-bg {
+   background-image: url("../img/Artistic-Landscape-4K-Wallpaper-3840x2160.jpg");    
+   background-position: center;
+   background-size: cover; 
+
+}
+
 .login-box,
 .register-box {
   width: 360px;
@@ -20347,10 +20355,11 @@ html.maximized-card {
 
 .login-card-body,
 .register-card-body {
-  background: #ffffff;
+  /*background: #ffffff;*/
   border-top: 0;
   color: #666;
   padding: 20px;
+  
 }
 
 .login-card-body .input-group .form-control,

@@ -11,8 +11,22 @@
 		$scope.edit = false;
 		var SoMau = 9;
 		var mapObj = null;
+		
+		var getListAccount = ()=>{
+			$http.get('TaiKhoan/getListAccount').then((response)=>{
+				if (response) {								
+					$scope.ListAccount = response.data;
+
+				}
+			});
+		}
+
 		var mainMapOnLoad = ()=>{
-			$http.get("TramQuanTrac/ListAll").then(function(response) {
+			var tramRequestApi = "TramQuanTrac/ListAll";
+			if ($scope.accountInfor.ma_vaitro != 1) {
+				tramRequestApi = "TramQuanTrac/getStationsByUser/"+$scope.accountInfor.tendangnhap;
+			}
+			$http.get(tramRequestApi).then(function(response) {
 				var tramList = response.data;
 				$scope.TramList = tramList;
 				defaultCoord = [tramList[0].vi_do,tramList[0].kinh_do];
@@ -24,7 +38,7 @@
 				mapObj = L.map('map', {attributionControl: false}).setView(defaultCoord, zoomLevel);			
 				// add tile để map có thể hoạt động, xài free từ OSM
 				L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-					attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',maxZoom: 18,
+					attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',maxZoom: 10,
 					// id: 'mapbox/streets-v11',
 					// tileSize: 512,
 					// zoomOffset: -1,
@@ -59,7 +73,6 @@
 				$scope.TramList.forEach((tram)=>{
 					$http.get(location.protocol + '//nominatim.openstreetmap.org/reverse?format=json&lat='+tram.vi_do+'&lon='+tram.kinh_do)
 					.then((result)=>{
-						console.log(result);
 						let primaryrAdress = result.data;	
 						tram.DiaChi = primaryrAdress.display_name;
 						let _latLng = [tram.vi_do,tram.kinh_do];
@@ -100,16 +113,16 @@
 						console.log("load fail");
 					});
 				});
-			});
-			// đã lấy được địa chỉ từ tọa độ.
 
-			// chưa lưu được tạo độ vào cơ sở dữ liệu.(thêm trạm);					
+
+			});
+			getListAccount();
 		}
 
 
-		window.onload = function() {								
-			mainMapOnLoad();
-		};
+		
+
+		mainMapOnLoad();
 
 		var onMapCustomClick = (e)=> {
 			if (marker !== undefined) {
@@ -164,7 +177,7 @@
 			_mapCustom = L.map('map-custom', {attributionControl: false}).setView(_defaultCoord, zoomLevel);			
 			// add tile để map có thể hoạt động, xài free từ OSM
 			L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',maxZoom: 18,
+				attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',maxZoom: 13,
 				// id: 'mapbox/streets-v11',
 				// tileSize: 512,
 				// zoomOffset: -1,
@@ -404,7 +417,8 @@
 		 }
 
 		 $scope.xemChiTiet = (ma_tram) =>{	
-		 	$scope.ChiTietTQT = $scope.TramList.filter( function( value ){ return value.ma_tram == ma_tram; })[0];
+		 	$scope.ChiTietTQT = $scope.TramList.find( ( value )=>value.ma_tram === ma_tram);
+		 	$scope.ChiTietTQT.TenNguoiQuanLy = $scope.ListAccount.find(elem=>elem.tendangnhap===$scope.ChiTietTQT.taikhoan_quanly).hovaten;
 		 	$scope.DuLieuChiTietTQT(ma_tram);
 		 	$('#ChiTietTram').modal('show');
 		 	realtime = "ON"; // bắt đầu load dữ liệu thời gian thực		
@@ -414,6 +428,7 @@
 
 		 $scope.updateTQT = ()=>{
 		 	delete $scope.ChiTietTQT['DiaChi'];
+		 	delete $scope.ChiTietTQT['TenNguoiQuanLy'];
 		 	var json = JSON.stringify($scope.ChiTietTQT, function( key, value ) {
 		 		if( key === "$$hashKey" ) {
 		 			return undefined;
@@ -491,10 +506,9 @@
 				let color = $scope.listSensorByStation[chartKey].mau;
 				let min = $scope.listSensorByStation[chartKey].nguon_duoi;
 				let max = $scope.listSensorByStation[chartKey].nguon_tren;
-				if (min < value && value < max) {
+				if (parseFloat(min) < parseFloat(value) && parseFloat(value) < parseFloat(max)) {
 					color = "#007bff"; // bg-primary
 				}
-
 				$scope.listSensorByStation[chartKey].latesValue = value;
 				$scope.listSensorByStation[chartKey].latesTime = moment(newTime).format("HH:mm:ss");
 				$scope.listSensorByStation[chartKey].latesDate = moment(newTime).format("DD/MM/YYYY");
@@ -564,8 +578,6 @@
 			$scope.ChiTietCamBien = camBien;
 		}
 
-
-
 		$scope.thaoCamBien = (camBien)=>{
 			$http.get('cambien/remove/'+camBien.ma_cambien).then((response)=>{
 				if (response.data) {
@@ -620,6 +632,7 @@
 			});			
 			$http.post('donvi/update', json).then(function (response) {
 				if (response.data){
+					$scope.getListDonVi();
 					$scope.DuLieuChiTietTQT($scope.ChiTietTQT.ma_tram);
 					$scope.DonVi = {};
 					$('.modal').modal('hide');
@@ -648,11 +661,15 @@
 				return value;
 			});			
 			$http.post('donvi/add',json ).then((response)=>{
+				$scope.getListDonVi();
 				$scope.DuLieuChiTietTQT($scope.ChiTietTQT.ma_tram);
 				$scope.DonVi = {};
 				$('.modal').modal('hide');
 			});
 		}
 		// =========================
+
+
+		
 	});
 })(angular.module('myIOTApp'));

@@ -36,11 +36,11 @@
                         <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Địa chỉ: {{value.DiaChi}}</li>
                         <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>SĐT : {{value.dienthoai}}</li>
                         <li class="small"><span class="fa-li"><i class="fas fa-lg fa-envelope"></i></span>Email : {{value.email}}</li>
-                        <li class="small"><a href="{{value.fblink}}" target="_blank"><span class="fa-li"><i class="fab fa-lg fa-facebook-square"></i></i></span>FaceBook</li></a>
+                        <li class="small"><a href="https://{{value.fblink}}" target="_blank"><span class="fa-li"><i class="fab fa-lg fa-facebook-square"></i></i></span>FaceBook</li></a>
                       </ul>
                     </div>
                     <div class="col-5 text-center">
-                      <img src="./public/img/user1-128x128.jpg" alt="" class="img-circle img-fluid">
+                      <img src="{{value.avatar}}" alt="" class="img-circle img-fluid">
                     </div>
                   </div>
                 </div>

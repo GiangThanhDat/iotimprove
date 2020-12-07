@@ -44,6 +44,20 @@ class giatriController extends controller
 		echo $result;
 	}
 
+	public function getDataSetFromUserByDate($tendangnhap,$ngayxem)
+	{
+		$model = $this->model('giatri');
+		$result = $model->getDataSetFromUserByDate($tendangnhap,$ngayxem);		
+		echo $result;
+	}
+
+	public function getDataSetFromAdminByDate($ngayxem)
+	{
+		$model = $this->model('giatri');
+		$result = $model->getDataSetFromAdminByDate($ngayxem);		
+		echo $result;
+	}
+
 	function thuthap()
 	{
 		if(isset($_GET)){
@@ -58,7 +72,7 @@ class giatriController extends controller
 			// $fileName = "receive.txt";
 			date_default_timezone_set('Asia/Ho_Chi_Minh');
 			$time = date('Y-m-d H:i:s');
-			// $time = date('Y-m-d H:i:s', strtotime($time . '- 1 days'));			
+			// $time = date('Y-m-d H:i:s', strtotime($time . '+ 3 days'));			
 			$giatri = $this->model("giatri");
 			foreach ($data_keys as $key) {
 				$data_string =  $time ."=".$key."=".$data[$key]."\n";

@@ -12,8 +12,16 @@
 					if (tendangnhap === "") 
 						$('#errorMessage').show('slow/400/fast');				
 					else{
-						accountmngService.setCookieData(tendangnhap);
-						window.location.href = 'TongQuan';	
+						$http.get('TaiKhoan/getAccountInfor/'+tendangnhap).then((response)=>{
+							if (response) {
+								$scope.accountInfor = response.data;
+								accountmngService.setAccountInfor($scope.accountInfor);								
+								window.location.href = 'TongQuan';
+							}
+						}, ()=>{
+							console.debug("load fail");
+						});
+						
 					}
 				}
 			}, ()=>{

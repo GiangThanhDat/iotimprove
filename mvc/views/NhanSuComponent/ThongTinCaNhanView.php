@@ -20,17 +20,15 @@
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3">
-
+          <div class="col-md-3">            
             <!-- Profile Image -->
             <div class="card card-primary card-outline">
-              <div class="card-body box-profile">
-                <div class="text-center">
+              <div class="card-body box-profile">      
+              <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
-                       src="./public/img/user2-160x160.jpg"
-                       alt="User profile picture">
-                </div>
-
+                       src="{{accountInfor.avatar}}"
+                       alt="User profile picture" ng-click="chooseImage()"  /> 
+                </div>        
                 <h3 class="profile-username text-center">{{accountInfor.hovaten}}</h3>
                 <!-- <p class="text-muted text-center">Software Engineer</p> -->
                 <ul class="list-group list-group-unbordered mb-3">
@@ -38,13 +36,20 @@
                     <b>Tên đăng nhập:  </b>{{accountInfor.tendangnhap}} 
                   </li>
                   <li class="list-group-item">
-                    <b>Vai trò:  </b> {{vaitro}}
+                    <b>Vai trò:  </b> {{accountInfor.ten_vaitro}}                    
                   </li>
                 </ul>
                 <!-- <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a> -->
               </div>
               <!-- /.card-body -->
-            </div>
+              <div class="card-footer">
+                <div class="offset-sm-2 col-sm-10">
+                  <button type="button" ng-show="!edit" ng-click="edit=true" class="btn btn-primary">Sửa</button>
+                  <button type="button" ng-show="edit" ng-click="edit=false" class="btn btn-danger">Hủy</button>
+                  <button type="button" ng-show="edit" ng-click="edit=false;updateAccount()" class="btn btn-success">Lưu</button>
+                </div>
+              </div>              
+            </div>            
             <!-- /.card -->            
           </div>
           <!-- /.col -->
@@ -52,7 +57,7 @@
             <div class="card">
               <div class="card-header p-2">
                 <ul class="nav nav-pills">
-                  <li class="nav-item"><a class="nav-link active"  href="#tram" data-toggle="tab">Trạm xử lý rác</a></li>
+                  <li class="nav-item"><a class="nav-link active" ng-click="edit=false"  href="#tram" data-toggle="tab">Trạm xử lý rác</a></li>
                   <li class="nav-item"><a class="nav-link" ng-click="edit=false" href="#DiaChi" data-toggle="tab">Địa chỉ cá nhân</a></li>
                   <li class="nav-item"><a class="nav-link" ng-click="edit=false" href="#ChinhSua" data-toggle="tab">Chỉnh sửa thông tin</a></li>
                 </ul>
